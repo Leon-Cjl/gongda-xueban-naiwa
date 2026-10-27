@@ -1,0 +1,29 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'cn.qlucampus.personal'
+ compileSdk 35
+ buildToolsVersion '35.0.0'
+ defaultConfig {
+  applicationId 'cn.qlucampus.naiwa.debug'
+  minSdk 24
+  targetSdk 35
+  versionCode 35
+  versionName '1.1.15-naiwa.10'
+ }
+ sourceSets { main { manifest.srcFile 'AndroidManifest.xml'; java.srcDirs = ['src']; res.srcDirs = ['res']; assets.srcDirs = ['../app'] } }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_1_8; targetCompatibility JavaVersion.VERSION_1_8 }
+ signingConfigs {
+  // 发布签名：在 gradle.properties 或命令行 -P 里给 naiwaStoreFile / naiwaStorePassword / naiwaKeyAlias / naiwaKeyPassword
+  release {
+   storeFile file(findProperty('naiwaStoreFile') ?: '../.debug-signing/debug.keystore')
+   storePassword findProperty('naiwaStorePassword') ?: 'android'
+   keyAlias findProperty('naiwaKeyAlias') ?: 'androiddebugkey'
+   keyPassword findProperty('naiwaKeyPassword') ?: 'android'
+  }
+ }
+ buildTypes {
+  debug { debuggable true; minifyEnabled false; applicationIdSuffix '.dev'; signingConfig signingConfigs.release }
+  release { debuggable false; minifyEnabled false; signingConfig signingConfigs.release }
+ }
+ buildFeatures { buildConfig false }
+}

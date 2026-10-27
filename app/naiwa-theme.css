@@ -1,0 +1,26 @@
+/* 保留奶蛙原有的憨劲儿，外观独立于学校页面及业务状态。 */
+:root[data-mascot-theme=naiwa] .appbar{background:var(--bar);border-bottom-color:var(--line)}
+:root[data-mascot-theme=naiwa] .nav{background:var(--bar)}
+:root[data-mascot-theme=naiwa] .nav button[aria-current=page] .ic{background:var(--primary-soft)}
+:root[data-mascot-theme=naiwa] .card{border:1px solid var(--line)}
+:root[data-mascot-theme=naiwa] .page-head h1{letter-spacing:.2px}
+:root[data-mascot-theme=naiwa] .account-chip{border:1px solid var(--line);background:var(--surface)}
+.naiwa-intro{display:grid;grid-template-columns:minmax(0,1fr) 120px;position:relative;isolation:isolate;align-items:center;gap:2px;min-height:150px;padding:16px 4px 14px 18px;margin:0 0 16px;border:1px solid var(--line);border-radius:24px;background:var(--surface);overflow:hidden}
+.naiwa-intro:after{content:'';position:absolute;z-index:-1;width:170px;height:170px;right:-35px;bottom:-38px;border-radius:50%;background:var(--primary-soft)}
+.naiwa-copy{min-width:0}
+.naiwa-kicker{font-size:10px;letter-spacing:1.5px;color:var(--primary);font-weight:700}
+.naiwa-copy h2{font-size:17px;line-height:1.5;margin:6px 0;font-weight:650}
+.naiwa-copy p{font-size:12px;color:var(--muted);line-height:1.65;max-width:220px}
+.naiwa-poke{display:inline-flex;align-items:center;gap:7px;background:none;color:var(--primary);font-size:12px;font-weight:600;border:0;min-height:40px;margin:4px 0 -5px;padding:0 6px 0 0}
+.naiwa-figure{align-self:stretch;display:grid;place-items:center;min-width:0;border:0;background:none;padding:0;margin:0;transform-origin:50% 85%;touch-action:manipulation}
+.naiwa-figure img{display:block;width:120px;height:148px;object-fit:contain;pointer-events:none}
+.naiwa-figure:active{transform:scale(.97)}
+.naiwa-image-unavailable:after{content:'奶蛙在这儿';font-size:12px;color:var(--primary);padding:14px}
+.naiwa-pop{animation:naiwa-pop .6s cubic-bezier(.2,.85,.2,1) both}
+@keyframes naiwa-pop{0%{transform:translateY(0) rotate(0)}30%{transform:translateY(-7px) rotate(-5deg)}65%{transform:translateY(1px) rotate(3deg)}100%{transform:translateY(0) rotate(0)}}
+.naiwa-help{font-size:12px;color:var(--muted);margin:-8px 0 16px}
+fieldset[data-naiwa-accents]:disabled{opacity:.5}
+:root[data-motion=off] .naiwa-pop{animation:none}
+@media(prefers-reduced-motion:reduce){.naiwa-pop{animation:none}.naiwa-figure:active{transform:none}}
+@media(max-width:360px){.naiwa-intro{grid-template-columns:minmax(0,1fr) 100px;padding-left:14px}.naiwa-figure img{width:100px;height:132px}.naiwa-copy h2{font-size:16px}}
+@media(min-width:720px){.naiwa-intro{grid-template-columns:minmax(0,1fr) 150px;max-width:680px;padding-left:24px}.naiwa-figure img{width:150px;height:160px}.naiwa-copy h2{font-size:20px}.naiwa-copy p{max-width:none;font-size:13px}}

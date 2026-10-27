@@ -1,0 +1,34 @@
+{
+  "tool": "Built-in image_gen",
+  "mode": "faithful edit / transparent cutout",
+  "items": [
+    {
+      "id": "icon",
+      "prompt": "Use case: precise-object-edit. Edit target: image1, the existing transparent app logo for 工大学伴. Supporting character identity reference: image2. Make a SMALL edition variation of image1, not a replacement brand. Preserve the exact blue-left/cyan-right open book silhouette, original gradients, central rounded doorway negative space, proportions, alignment and clean edges. Only add a small flat yellow Naiwa mascot head badge overlapping the lower-right outer corner of the right page; about 22 percent of the book symbol width. Badge has the reference's simple rounded yellow head, two olive-green eye surrounds with black pupils and a short flat brown mouth, slightly blank expression. Not a generic green frog face, not a circular frog with ears. No whole body, no 3D photo pasted on the icon, no text. White narrow separator around badge if needed for clarity. Keep 80–90 percent of the original mark visually unchanged. True transparent background, one centered foreground symbol only, generous original margins; no white outer tile or rounded-square container. Square high-resolution PNG, vector-like precision, legible at small sizes."
+    },
+    {
+      "id": "sleep",
+      "prompt": "图片保真修复与去背景。图1是唯一编辑目标：保留图中坐着闭眼休息的奶蛙本体，提高清晰度，去除所有竹墙、地板、竹筒、植物和背景，输出真正透明背景的完整单个角色贴纸。保持相同坐姿、双手轻放肚皮前、弯腿、闭着的绿色眼皮与小小平嘴，保留长头身相连、大奶白肚皮、棕色手脚、原图的憨劲儿和质感，不要变成玩偶、宝宝、普通青蛙。只修清楚原角色，不能重新设计脸和头身比例。保留自然边缘，四周适当透明留白，无文字、无水印、无地面投影、无额外道具。用于Android奶蛙宠物冬眠状态。"
+    },
+    {
+      "id": "lonely",
+      "prompt": "图片保真修复与去背景。图1是唯一编辑目标：保留图中撑着黑色雨伞、表情有点蔫的奶蛙以及雨伞，提高清晰度，去除城市、大本钟、河流、雨景等全部背景，输出真正透明背景的单个角色贴纸。严格保留原角色的脸和眼神、弯下的细嘴、绿色眼圈、长头身相连的比例、大奶白肚皮、棕色手掌和原有撑伞姿势。不是重新设计，不可变成婴儿玩偶或普通绿色青蛙。保留原图的憨和笨拙感，图中身体下缘原本被截断，保持自然截断而不发明腿。伞完整留在画面内，四周透明留白，无文字、无水印、不加道具。用于Android宠物的想你和蔫蔫状态。"
+    },
+    {
+      "id": "echo",
+      "prompt": "Use case: background-extraction / identity-preserve. Asset type: high-resolution transparent PNG mascot cutout for an Android pet UI. Input image is the edit target. Restore the solid main yellow character only, waving with a wide bent-leg stance, one hand across belly. Remove ghost duplicate, blue caption strip and all text. Keep the exact wide stocky body, long head flowing into torso, small flat mouth, olive green eye surrounds, cream belly, brown hands/feet. Preserve awkward deadpan charm and near-identical pose. Improve edge clarity and mild compression damage but retain the reference 3D rubber/clay texture, anatomy, eye placement, proportions and expression. Do not make a generic cute frog, do not add blush, rosy cheeks, new facial features, scenery, slogans or labels. One character only, central, entire requested silhouette with a little safe transparent padding, crisp clean true alpha, no checkerboard drawn into pixels, no drop shadow, no rectangular backdrop."
+    },
+    {
+      "id": "stern",
+      "prompt": "Use case: background-extraction / identity-preserve. Asset type: high-resolution transparent PNG mascot cutout for an Android pet UI. Input image is the edit target. Restore this exact stern pointing character pose and facial identity. Keep extended brown finger pointing at viewer, tilted green eyes, flat downturned mouth and other arm across cream belly. Chest-up/waist-up crop as reference. Faithful restoration, no cute redesign. Improve edge clarity and mild compression damage but retain the reference 3D rubber/clay texture, anatomy, eye placement, proportions and expression. Do not make a generic cute frog, do not add blush, rosy cheeks, new facial features, scenery, slogans or labels. One character only, central, entire requested silhouette with a little safe transparent padding, crisp clean true alpha, no checkerboard drawn into pixels, no drop shadow, no rectangular backdrop."
+    },
+    {
+      "id": "flower",
+      "prompt": "Use case: background-extraction / identity-preserve. Asset type: high-resolution transparent PNG mascot cutout for an Android pet UI. Input image is the edit target. Extract and faithfully restore this exact veiled yellow character holding an orange flower in its mouth. Retain delicate off-white veil, olive eye surround, round black eye, long yellow head/neck, cream belly and original profile pose. Chest-up crop as reference, veil completely within frame. Remove teal backdrop only. Improve edge clarity and mild compression damage but retain the reference 3D rubber/clay texture, anatomy, eye placement, proportions and expression. Do not make a generic cute frog, do not add blush, rosy cheeks, new facial features, scenery, slogans or labels. One character only, central, entire requested silhouette with a little safe transparent padding, crisp clean true alpha, no checkerboard drawn into pixels, no drop shadow, no rectangular backdrop."
+    },
+    {
+      "id": "hoodie",
+      "prompt": "Use case: background-extraction / identity-preserve. Asset type: high-resolution transparent PNG mascot cutout for an Android pet UI. Input image is the edit target. Extract and faithfully restore the exact hooded masked yellow character, arms folded, same green eyes, black hood, black mask and original white geometric marks. Chest-up as reference. No extra accessories and no redesigned face. Remove white background. Improve edge clarity and mild compression damage but retain the reference 3D rubber/clay texture, anatomy, eye placement, proportions and expression. Do not make a generic cute frog, do not add blush, rosy cheeks, new facial features, scenery, slogans or labels. One character only, central, entire requested silhouette with a little safe transparent padding, crisp clean true alpha, no checkerboard drawn into pixels, no drop shadow, no rectangular backdrop."
+    }
+  ]
+}
