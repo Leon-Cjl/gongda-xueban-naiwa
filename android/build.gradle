@@ -7,8 +7,8 @@ android {
   applicationId 'cn.qlucampus.naiwa.debug'
   minSdk 24
   targetSdk 35
-  versionCode 35
-  versionName '1.1.15-naiwa.10'
+  versionCode 36
+  versionName '1.1.16-naiwa.11'
  }
  sourceSets { main { manifest.srcFile 'AndroidManifest.xml'; java.srcDirs = ['src']; res.srcDirs = ['res']; assets.srcDirs = ['../app'] } }
  compileOptions { sourceCompatibility JavaVersion.VERSION_1_8; targetCompatibility JavaVersion.VERSION_1_8 }
