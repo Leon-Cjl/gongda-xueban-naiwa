@@ -1,3 +1,3 @@
 /* 版本标记：public = 单账号公开版。 */
 window.CampusEdition = 'public';
-window.CampusEditionVersion = '1.1.19-naiwa.14';
+window.CampusEditionVersion = '1.1.22-naiwa.17';
