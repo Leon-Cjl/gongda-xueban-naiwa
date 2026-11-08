@@ -4,7 +4,7 @@
 
 > 非学校官方应用，与学校无关。预约、签到以学校系统为准；仅限本人账号使用。
 
-当前版本：**1.1.15-naiwa.10**（安卓包名 `cn.qlucampus.naiwa.debug`）。
+当前版本：**1.1.26-naiwa.21**（安卓包名 `cn.qlucampus.naiwa.debug`）。
 
 ## 奶蛙小屋
 
