@@ -51,3 +51,7 @@ Gradle 工程。用 Android Studio 打开仓库根目录，或命令行：
 **代码**以 [MIT](LICENSE) 许可证开源。
 
 **奶蛙形象相关的图片**（`app/assets/`、`branding/pet-masters/` 以及应用图标上的奶蛙角标）是根据网络参考图加工的，**不在 MIT 许可范围内**，著作权归原作者所有；仅供学习交流，请勿商用。`app/donate.png` 是作者的收款码，请勿在你自己发布的版本里沿用。
+
+## 相关项目
+
+[Leon 的项目主页](https://github.com/Leon-Cjl) · [校园电费](https://github.com/Leon-Cjl/campus-dianfei) · [工大学伴](https://github.com/Leon-Cjl/gongda-xueban) · [奶蛙版](https://github.com/Leon-Cjl/gongda-xueban-naiwa) · [宿舍快开](https://github.com/Leon-Cjl/dorm-native-open)
