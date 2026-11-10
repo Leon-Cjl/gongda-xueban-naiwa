@@ -4,7 +4,7 @@
 
 **带奶蛙陪学宠物的工大学伴分支：图书馆选座 · 入馆码 · 签到提醒 · 空教室**
 
-<img src="https://img.shields.io/badge/版本-1.1.26--naiwa.21-blue?style=flat-square" />
+<img src="https://img.shields.io/badge/版本-1.1.27--naiwa.22-blue?style=flat-square" />
 <img src="https://img.shields.io/badge/platform-Android-green?style=flat-square&logo=android&logoColor=white" />
 <img src="https://img.shields.io/badge/language-JavaScript-yellow?style=flat-square&logo=javascript&logoColor=black" />
 <img src="https://img.shields.io/badge/license-MIT-yellow?style=flat-square" />
@@ -25,6 +25,10 @@
 > - 应用直接访问学校官方系统，**没有自建服务器**。
 
 ---
+
+## 本次更新
+
+同步主线至个人版 0.9.46 的共用改进，包括登录恢复、22:00 后日期选择、空教室与考试读取、弹窗和底栏交互。自动测试和浏览器合成场景通过；真实手机及学校账号尚未验证。
 
 ## 🐸 奶蛙小屋
 
