@@ -2,9 +2,11 @@
 
 # 🐸 工大学伴 · 奶蛙版
 
+<img src="docs/readme-banner-20261110.png" alt="奶蛙版宣传图：奶蛙在阳光书桌前学习" width="100%" />
+
 **带奶蛙陪学宠物的工大学伴分支：图书馆选座 · 入馆码 · 签到提醒 · 空教室**
 
-<img src="https://img.shields.io/badge/版本-1.1.26--naiwa.21-blue?style=flat-square" />
+<img src="https://img.shields.io/badge/版本-1.1.27--naiwa.22-blue?style=flat-square" />
 <img src="https://img.shields.io/badge/platform-Android-green?style=flat-square&logo=android&logoColor=white" />
 <img src="https://img.shields.io/badge/language-JavaScript-yellow?style=flat-square&logo=javascript&logoColor=black" />
 <img src="https://img.shields.io/badge/license-MIT-yellow?style=flat-square" />
